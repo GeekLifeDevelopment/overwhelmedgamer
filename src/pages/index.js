@@ -4,7 +4,7 @@ import Layout from "../Layout";
 const HomePage = () => {
   return (
     <Layout>
-      Here is my home page<i class='fa-solid fa-ghost'></i>
+      <h1>Here is my heading</h1>Here is my home page and here is the letter l
     </Layout>
   );
 };

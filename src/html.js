@@ -18,6 +18,15 @@ export default function HTML(props) {
           src='https://kit.fontawesome.com/a48d28f369.js'
           crossOrigin='anonymous'
         />
+
+        {/* Google Fonts */}
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
+
+        <link
+          href='https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&family=Kanit:wght@200;400;500&display=swap'
+          rel='stylesheet'
+        />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
