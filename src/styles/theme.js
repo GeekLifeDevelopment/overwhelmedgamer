@@ -1,5 +1,5 @@
 const colors = {
-  owBlack: "#2222222",
+  owBlack: "#222222",
   owOrange: "#f3b33e",
 };
 
@@ -8,9 +8,15 @@ const breakpoints = {
   mobileLarge: "425px",
 };
 
+const fonts = {
+  regular: "'Source Code Pro', monospace;",
+  heading: "'Kanit', sans-serif;",
+};
+
 const theme = {
   colors,
   breakpoints,
+  fonts,
 };
 
 export default theme;
