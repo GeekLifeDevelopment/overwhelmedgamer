@@ -4,7 +4,10 @@
 module.exports = {
   siteMetadata: {
     title: `Overwhlmed_Gamer`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.overwhelmedgamer.show`,
+    description: `Overwhelmed Gamer Podcast Web Site`,
+    twitterUsername: `@OverwhelmedGame`,
+    image: `/web-logo.png`,
   },
   plugins: [
     {
