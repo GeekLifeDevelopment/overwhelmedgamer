@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../Layout";
-import Styles from "./index.styled";
+import Styles from "./home.styled";
 import Logo from "../images/web-logo.png";
 import { SEO } from "../components/seo";
 import SubButton from "../components/subscribeButton/subButton";
