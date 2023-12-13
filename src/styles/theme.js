@@ -9,8 +9,8 @@ const breakpoints = {
 };
 
 const fonts = {
-  regular: "'Source Code Pro', monospace;",
-  heading: "'Kanit', sans-serif;",
+  regular: `Source Code Pro', monospace`,
+  heading: `Kanit, sans-serif`,
 };
 
 const theme = {
