@@ -3,7 +3,7 @@ import styled from "styled-components";
 const HomeStyles = styled.div`
   .hero-section {
     display: flex;
-    background-color: #222;
+    background-color: ${(props) => props.theme.colors.owBlack};
     width: 100vw;
     height: 100vh;
     color: white;
