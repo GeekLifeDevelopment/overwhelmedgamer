@@ -4,7 +4,7 @@ const HomeStyles = styled.div`
   .hero-section {
     position: relative;
     display: flex;
-    background-color: ${(props) => props.theme.colors.owBlack};
+    background-color: #222;
     width: 100vw;
     height: 100vh;
     color: white;
@@ -28,7 +28,7 @@ const HomeStyles = styled.div`
       .podcast-heading {
         font-size: 3vw;
         margin-top: 10rem;
-        font-family: ${(props) => props.theme.fonts.regular};
+        font-family: "Source Code Pro", monospace;
 
         @media (max-width: 650px) {
           margin: 0 auto;
@@ -36,11 +36,11 @@ const HomeStyles = styled.div`
         }
       }
       .description {
-        border: 1px solid ${(props) => props.theme.colors.owOrange};
+        border: 1px solid #f3b33e;
         padding: 1rem;
         max-width: 80%;
         font-size: 1rem;
-        font-family: ${(props) => props.theme.fonts.regular};
+        font-family: "Source Code Pro", monospace;
         @media (max-width: 650px) {
           max-width: 100%;
         }
@@ -74,7 +74,7 @@ const HomeStyles = styled.div`
             margin: 0 1rem;
             font-size: 1.2rem;
             &:hover {
-              color: ${(props) => props.theme.colors.owOrange};
+              color: #f3b33e;
             }
           }
           @media (max-width: 650px) {
@@ -88,7 +88,7 @@ const HomeStyles = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
-      @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
+      @media (max-width: 768px) {
         padding-top: 2rem;
         width: 90%;
       }
@@ -99,7 +99,7 @@ const HomeStyles = styled.div`
       .page-heading {
         font-size: 2.5vw;
         .the {
-          background-color: ${(props) => props.theme.colors.owOrange};
+          background-color: #f3b33e;
           writing-mode: vertical-rl;
           padding: 0.3rem;
           border: 2px solid black;
