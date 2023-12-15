@@ -2,20 +2,38 @@ import styled from "styled-components";
 
 const HomeStyles = styled.div`
   .hero-section {
+    position: relative;
     display: flex;
     background-color: ${(props) => props.theme.colors.owBlack};
     width: 100vw;
     height: 100vh;
     color: white;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    @media (max-width: 650px) {
+      flex-direction: column-reverse;
+      align-items: center;
+      height: 100%;
+    }
     .left-content-container {
       padding-left: 3rem;
       width: 50%;
       display: flex;
       flex-direction: column;
+      @media (max-width: 650px) {
+        padding: 0;
+        width: 90%;
+      }
+
       .podcast-heading {
-        font-size: 2.5rem;
-        padding-top: 10rem;
+        font-size: 3vw;
+        margin-top: 10rem;
         font-family: ${(props) => props.theme.fonts.regular};
+
+        @media (max-width: 650px) {
+          margin: 0 auto;
+          font-size: 100%;
+        }
       }
       .description {
         border: 1px solid ${(props) => props.theme.colors.owOrange};
@@ -23,16 +41,29 @@ const HomeStyles = styled.div`
         max-width: 80%;
         font-size: 1rem;
         font-family: ${(props) => props.theme.fonts.regular};
+        @media (max-width: 650px) {
+          max-width: 100%;
+        }
       }
       .sub-container {
+        position: absolute;
         display: flex;
         padding-top: 6rem;
         align-items: flex-end;
-
+        bottom: 1rem;
+        @media (max-width: 650px) {
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          padding-top: 1rem;
+        }
         .sub-btns {
           display: flex;
           gap: 1rem;
           width: 100%;
+          @media (max-width: 650px) {
+            flex-direction: column;
+          }
         }
 
         .social-btns {
@@ -46,20 +77,27 @@ const HomeStyles = styled.div`
               color: ${(props) => props.theme.colors.owOrange};
             }
           }
+          @media (max-width: 650px) {
+            padding-top: 1rem;
+          }
         }
       }
     }
     .right-content-container {
-      width: 70%;
+      width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
+      @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
+        padding-top: 2rem;
+        width: 90%;
+      }
       h1 {
         display: flex;
         align-items: center;
       }
       .page-heading {
-        font-size: 2.5rem;
+        font-size: 2.5vw;
         .the {
           background-color: ${(props) => props.theme.colors.owOrange};
           writing-mode: vertical-rl;
@@ -68,11 +106,19 @@ const HomeStyles = styled.div`
           margin-right: 0.5rem;
           -webkit-text-stroke: 1px black;
           font-size: 2rem;
+          @media (max-width: 650px) {
+            font-size: 1.5rem;
+          }
+        }
+        @media (max-width: 650px) {
+          font-size: 100%;
         }
       }
       .logo-container {
         width: 70%;
-
+        @media (max-width: 650px) {
+          width: 100%;
+        }
         img {
           width: 100%;
           height: 100%;
