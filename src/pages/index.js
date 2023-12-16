@@ -12,7 +12,7 @@ const HomePage = () => {
         <section className='hero-section'>
           <div className='left-content-container'>
             <header className='podcast-heading'>
-              <h2>A podcast about video games</h2>
+              <h2>Just another gaming podcast.</h2>
             </header>
             <p className='description'>
               Dive into weekly game reviews, where we explore classics from the
@@ -34,7 +34,7 @@ const HomePage = () => {
                   platform='Spotify'
                 />
               </div>
-              <div className='social-btns'>
+              {/* <div className='social-btns'>
                 <a
                   href='https://www.facebook.com/profile.php?id=61553936004598'
                   target='_blank'
@@ -56,7 +56,7 @@ const HomePage = () => {
                 >
                   <i class='fa-brands fa-x-twitter'></i>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='right-content-container'>

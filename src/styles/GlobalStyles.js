@@ -17,8 +17,9 @@ const GlobalStyles = createGlobalStyle`
         font-family: ${(props) => props.theme.fonts.heading};
     }
 
-    a {
+    *a {
         color: ${(props) => props.theme.colors.owBlack}
+        
     }
 `;
 
