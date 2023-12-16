@@ -2,12 +2,9 @@ import React, { useEffect } from "react";
 import Styles from "./MainNav.styled";
 import { Link } from "gatsby";
 
-const location = window.location.pathname;
-var scrollPosition = window.scrollY;
-
 const MainNav = () => {
   return (
-    <Styles location={location} scrollPosition={scrollPosition}>
+    <Styles>
       <div className='nav-container'>
         <ul className='main-links'>
           <li className='mobile-bars'>
