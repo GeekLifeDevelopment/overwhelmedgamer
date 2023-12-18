@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 const MainNavStyles = styled.div`
-  background-color: #f3b33e;
-  /* padding: 0.5rem 0; */
-
   .nav-container {
+    background-color: #f3b33e;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +46,33 @@ const MainNavStyles = styled.div`
         }
         @media (max-width: 650px) {
           font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .mobile-menu-container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 300px;
+    z-index: 5;
+    padding: 0 1rem;
+    margin-left: ${(props) =>
+      props.showMobileMenu === "false" ? "-300px" : "0"};
+    transition: 0.5s;
+
+    .main-links-mobile {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      font-family: "Kanit", sans-serif;
+      font-size: 2rem;
+
+      .main-link-mobile-item {
+        a {
+          color: white;
+          text-decoration: none;
         }
       }
     }
