@@ -1,14 +1,24 @@
-import React, { useEffect } from "react";
+import React, { useState, useMemo } from "react";
 import Styles from "./MainNav.styled";
 import { Link } from "gatsby";
 
 const MainNav = () => {
+  const [showMobileMenu, setShowMobileMenu] = useState("false");
+
+  const handleClick = () => {
+    if (showMobileMenu === "false") {
+      setShowMobileMenu("true");
+    } else setShowMobileMenu("false");
+  };
+
+  console.log(showMobileMenu);
+
   return (
-    <Styles>
+    <Styles showMobileMenu={showMobileMenu}>
       <div className='nav-container'>
         <ul className='main-links'>
           <li className='mobile-bars'>
-            <i className='fa-solid fa-bars'></i>
+            <i onClick={handleClick} className='fa-solid fa-bars'></i>
           </li>
           <li className='main-link-item'>
             <Link to='/'>Home</Link>
@@ -50,6 +60,22 @@ const MainNav = () => {
             >
               <i className='fa-brands fa-x-twitter'></i>
             </a>
+          </li>
+        </ul>
+      </div>
+      <div className='mobile-menu-container'>
+        <ul className='main-links-mobile'>
+          <li className='main-link-mobile-item'>
+            <Link to='/'>Home</Link>
+          </li>
+          <li className='main-link-mobile-item'>
+            <Link to='#'>About</Link>
+          </li>
+          <li className='main-link-mobile-item'>
+            <Link to='#'>Episodes</Link>
+          </li>
+          <li className='main-link-mobile-item'>
+            <Link to='#'>Subscribe</Link>
           </li>
         </ul>
       </div>
