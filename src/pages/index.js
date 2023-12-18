@@ -34,29 +34,6 @@ const HomePage = () => {
                   platform='Spotify'
                 />
               </div>
-              {/* <div className='social-btns'>
-                <a
-                  href='https://www.facebook.com/profile.php?id=61553936004598'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i class='fa-brands fa-square-facebook'></i>
-                </a>
-                <a
-                  href='https://www.instagram.com/overwhelmed_gamer/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i class='fa-brands fa-instagram'></i>
-                </a>
-                <a
-                  href='https://twitter.com/OverwhelmedGame'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <i class='fa-brands fa-x-twitter'></i>
-                </a>
-              </div> */}
             </div>
           </div>
           <div className='right-content-container'>
