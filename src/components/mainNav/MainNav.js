@@ -18,7 +18,14 @@ const MainNav = () => {
       <div className='nav-container'>
         <ul className='main-links'>
           <li className='mobile-bars'>
-            <i onClick={handleClick} className='fa-solid fa-bars'></i>
+            <i
+              onClick={handleClick}
+              className={
+                showMobileMenu === "false"
+                  ? "fa-solid fa-bars"
+                  : "fa-solid fa-x"
+              }
+            ></i>
           </li>
           <li className='main-link-item'>
             <Link to='/'>Home</Link>
