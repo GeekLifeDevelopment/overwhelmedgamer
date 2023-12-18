@@ -43,6 +43,12 @@ const MainNavStyles = styled.div`
 
       .social-link-item {
         margin-left: 1rem;
+        a {
+          color: #222;
+        }
+        @media (max-width: 650px) {
+          font-size: 1.5rem;
+        }
       }
     }
   }
