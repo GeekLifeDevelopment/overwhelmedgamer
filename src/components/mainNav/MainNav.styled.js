@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const MainNavStyles = styled.div`
   background-color: #f3b33e;
-  padding: 0.5rem 0;
+  /* padding: 0.5rem 0; */
 
   .nav-container {
     display: flex;
@@ -40,9 +40,6 @@ const MainNavStyles = styled.div`
     .social-links {
       display: flex;
       padding-right: 2rem;
-      @media (max-width: 650px) {
-        display: none;
-      }
 
       .social-link-item {
         margin-left: 1rem;

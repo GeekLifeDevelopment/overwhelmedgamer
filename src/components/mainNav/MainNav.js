@@ -11,7 +11,7 @@ const MainNav = () => {
             <i className='fa-solid fa-bars'></i>
           </li>
           <li className='main-link-item'>
-            <Link to='#'>Home</Link>
+            <Link to='/'>Home</Link>
           </li>
           <li className='main-link-item'>
             <Link to='#'>About</Link>
