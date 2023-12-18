@@ -25,14 +25,31 @@ const MainNav = () => {
         </ul>
         <ul className='social-links'>
           <li className='social-link-item'>
-            <i class='fa-brands fa-square-facebook' />
+            <a
+              href='https://www.facebook.com/profile.php?id=61553936004598'
+              target='_blank'
+              rel='noopener'
+            >
+              <i class='fa-brands fa-square-facebook' />
+            </a>
           </li>
           <li className='social-link-item'>
-            {" "}
-            <i className='fa-brands fa-instagram'></i>
+            <a
+              href='https://www.instagram.com/overwhelmed_gamer/'
+              target='_blank'
+              rel='noopener'
+            >
+              <i className='fa-brands fa-instagram'></i>
+            </a>
           </li>
           <li className='social-link-item'>
-            <i className='fa-brands fa-x-twitter'></i>
+            <a
+              href='https://twitter.com/OverwhelmedGame'
+              target='_blank'
+              rel='noopener'
+            >
+              <i className='fa-brands fa-x-twitter'></i>
+            </a>
           </li>
         </ul>
       </div>
