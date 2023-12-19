@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const FooterStyles = styled.div`
+const FooterStyles = styled.footer`
   background-color: #f3b33e;
   padding: 2rem;
   font-family: "Kanit", sans-serif;

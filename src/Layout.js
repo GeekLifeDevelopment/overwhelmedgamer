@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <MainNav />
-      {children}
+      <main style={{ minHeight: "100vh" }}>{children}</main>
       <Footer />
     </ThemeProvider>
   );
