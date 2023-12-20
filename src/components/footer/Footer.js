@@ -6,26 +6,28 @@ import { Link } from "gatsby";
 const Footer = () => {
   return (
     <Styles>
-      <ul>
-        <li>
-          <Title />
-        </li>
-        <li>
-          <Link to='#'>Home</Link>
-        </li>
-        <li>
-          <Link to='#'>About</Link>
-        </li>
-        <li>
-          <Link to='#'>Episodes</Link>
-        </li>
-        <li>
-          <Link to='#'>Subscribe</Link>
-        </li>
-        <li>
-          <Link to='#'>Contact</Link>
-        </li>
-      </ul>
+      <footer>
+        <ul>
+          <li>
+            <Title />
+          </li>
+          <li>
+            <Link to='#'>Home</Link>
+          </li>
+          <li>
+            <Link to='/about'>About</Link>
+          </li>
+          <li>
+            <Link to='#'>Episodes</Link>
+          </li>
+          <li>
+            <Link to='#'>Subscribe</Link>
+          </li>
+          <li>
+            <Link to='#'>Contact</Link>
+          </li>
+        </ul>
+      </footer>
     </Styles>
   );
 };

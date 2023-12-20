@@ -11,6 +11,13 @@ const GlobalStyles = createGlobalStyle`
         color: ${(props) => props.theme.colors.owBlack}
         font-family: ${(props) => props.theme.fonts.regular};
         font-size: 16px;
+        
+    }
+
+    .inner {
+        max-width: 1000px;
+        padding: 0 2rem;
+        margin: auto;
     }
 
     h1 {

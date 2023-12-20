@@ -31,7 +31,7 @@ const MainNav = () => {
             <Link to='/'>Home</Link>
           </li>
           <li className='main-link-item'>
-            <Link to='#'>About</Link>
+            <Link to='/about'>About</Link>
           </li>
           <li className='main-link-item'>
             <Link to='#'>Episodes</Link>
@@ -76,7 +76,7 @@ const MainNav = () => {
             <Link to='/'>Home</Link>
           </li>
           <li className='main-link-mobile-item'>
-            <Link to='#'>About</Link>
+            <Link to='/about'>About</Link>
           </li>
           <li className='main-link-mobile-item'>
             <Link to='#'>Episodes</Link>
