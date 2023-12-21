@@ -45,7 +45,7 @@ const MainNav = () => {
             <a
               href='https://www.facebook.com/profile.php?id=61553936004598'
               target='_blank'
-              rel='noopener'
+              rel='noreferrer'
             >
               <i class='fa-brands fa-square-facebook' />
             </a>
@@ -54,7 +54,7 @@ const MainNav = () => {
             <a
               href='https://www.instagram.com/overwhelmed_gamer/'
               target='_blank'
-              rel='noopener'
+              rel='noreferrer'
             >
               <i className='fa-brands fa-instagram'></i>
             </a>
@@ -63,9 +63,18 @@ const MainNav = () => {
             <a
               href='https://twitter.com/OverwhelmedGame'
               target='_blank'
-              rel='noopener'
+              rel='noreferrer'
             >
               <i className='fa-brands fa-x-twitter'></i>
+            </a>
+          </li>
+          <li className='social-link-item'>
+            <a
+              href='https://www.twitch.tv/theoverwhelmedgamer'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i class='fa-brands fa-twitch'></i>
             </a>
           </li>
         </ul>
