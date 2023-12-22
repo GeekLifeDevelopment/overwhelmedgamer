@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState } from "react";
 import Styles from "./MainNav.styled";
 import { Link } from "gatsby";
 
@@ -74,7 +74,7 @@ const MainNav = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <i class='fa-brands fa-twitch'></i>
+              <i className='fa-brands fa-twitch'></i>
             </a>
           </li>
         </ul>
