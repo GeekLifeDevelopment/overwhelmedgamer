@@ -111,7 +111,8 @@ const HomeStyles = styled.div`
           }
         }
         @media (max-width: 650px) {
-          font-size: 100%;
+          font-size: 2rem;
+          line-height: 40px;
         }
       }
       .logo-container {
