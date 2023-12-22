@@ -26,6 +26,7 @@ const HomePage = () => {
                   platform='Apple Podcasts'
                   backgroundHover='#d56dfb'
                   backgroundHover2='#872ec4'
+                  to='https://podcasts.apple.com/us/podcast/overwhelmed-gamer/id1717549866'
                 />
 
                 <SubButton

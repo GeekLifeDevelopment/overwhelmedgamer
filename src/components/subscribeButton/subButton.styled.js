@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 const SubButtonStyles = styled.div`
+  a {
+    text-decoration: none;
+  }
+
   .button-container {
     display: flex;
     border: 1px white solid;
@@ -9,6 +13,7 @@ const SubButtonStyles = styled.div`
     align-items: center;
     gap: 0.8rem;
     color: white;
+
     
 
     i {
