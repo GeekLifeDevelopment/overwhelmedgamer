@@ -18,7 +18,7 @@ const Footer = () => {
             <Link to='/about'>About</Link>
           </li>
           <li>
-            <Link to='#'>Episodes</Link>
+            <Link to='/episodes'>Episodes</Link>
           </li>
           <li>
             <Link to='#'>Subscribe</Link>

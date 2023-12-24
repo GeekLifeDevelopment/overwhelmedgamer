@@ -34,7 +34,7 @@ const MainNav = () => {
             <Link to='/about'>About</Link>
           </li>
           <li className='main-link-item'>
-            <Link to='#'>Episodes</Link>
+            <Link to='/episodes'>Episodes</Link>
           </li>
           <li className='main-link-item'>
             <Link to='#'>Subscribe</Link>
