@@ -17,7 +17,7 @@ const Footer = () => {
           <li>
             <Link to='/about'>About</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to='/episodes'>Episodes</Link>
           </li>
           <li>
@@ -25,7 +25,7 @@ const Footer = () => {
           </li>
           <li>
             <Link to='#'>Contact</Link>
-          </li>
+          </li> */}
         </ul>
       </footer>
     </Styles>

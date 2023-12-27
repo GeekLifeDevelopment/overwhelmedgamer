@@ -33,12 +33,12 @@ const MainNav = () => {
           <li className='main-link-item'>
             <Link to='/about'>About</Link>
           </li>
-          <li className='main-link-item'>
+          {/* <li className='main-link-item'>
             <Link to='/episodes'>Episodes</Link>
           </li>
           <li className='main-link-item'>
             <Link to='#'>Subscribe</Link>
-          </li>
+          </li> */}
         </ul>
         <ul className='social-links'>
           <li className='social-link-item'>
@@ -87,12 +87,12 @@ const MainNav = () => {
           <li className='main-link-mobile-item'>
             <Link to='/about'>About</Link>
           </li>
-          <li className='main-link-mobile-item'>
+          {/* <li className='main-link-mobile-item'>
             <Link to='#'>Episodes</Link>
           </li>
           <li className='main-link-mobile-item'>
             <Link to='#'>Subscribe</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </Styles>
