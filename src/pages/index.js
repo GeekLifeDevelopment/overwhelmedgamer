@@ -33,6 +33,7 @@ const HomePage = () => {
                   backgroundHover='#1DB954'
                   icon='fa-brands fa-spotify'
                   platform='Spotify'
+                  to='https://open.spotify.com/show/2QjYq0AzmWPuqLz6kTZIht'
                 />
               </div>
             </div>
