@@ -15,9 +15,9 @@ const HomePage = () => {
               <h2>Just another gaming podcast.</h2>
             </header>
             <p className='description'>
-              Dive into weekly game reviews, where we explore classics from the
-              backlog, delve into modern releases, and uncover the magic of
-              homebrew games.
+              My backlog is bigger than your backlog. Let's have some drinks and
+              talk about it. Oh yea I have a podcast and like to stream
+              home-brew video games.
             </p>
             <div className='sub-container'>
               <div className='sub-btns'>
