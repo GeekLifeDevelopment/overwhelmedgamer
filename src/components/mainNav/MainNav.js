@@ -88,7 +88,7 @@ const MainNav = () => {
             <Link to='/about'>About</Link>
           </li>
           <li className='main-link-mobile-item'>
-            <Link to='#'>Episodes</Link>
+            <Link to='/episodes'>Episodes</Link>
           </li>
           {/* <li className='main-link-mobile-item'>
             <Link to='#'>Subscribe</Link>
