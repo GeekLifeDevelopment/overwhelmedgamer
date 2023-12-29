@@ -1,12 +1,16 @@
 import React from "react";
 import Layout from "../Layout";
 import Styles from "./episodes.styled";
+import Podcasts from "../components/podcasts/Podcasts";
 
 const EpisodePage = () => {
   return (
     <Layout>
       <Styles>
-        <h1 className='inner'>Episodes</h1>
+        <div className='inner'>
+          <h1>Episodes</h1>
+          <Podcasts />
+        </div>
       </Styles>
     </Layout>
   );

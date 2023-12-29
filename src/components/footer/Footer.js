@@ -17,10 +17,10 @@ const Footer = () => {
           <li>
             <Link to='/about'>About</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to='/episodes'>Episodes</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to='#'>Subscribe</Link>
           </li>
           <li>
