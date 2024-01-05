@@ -50,9 +50,9 @@ const AboutPage = () => {
           <h2>Connect with us</h2>
           <p>
             We love engaging with our community! Connect with us on social
-            media, see bottom of page. Share your thoughts, questions, and game
-            recommendations. Your feedback is invaluable, and we're always
-            thrilled to hear from fellow gamers.
+            media, Share your thoughts, questions, and game recommendations.
+            Your feedback is invaluable, and we're always thrilled to hear from
+            fellow gamers.
           </p>
         </div>
       </Styles>
