@@ -77,7 +77,7 @@ const MainNav = () => {
               <i className='fa-brands fa-twitch'></i>
             </a>
           </li>
-          {/* <li className='social-link-item'>
+          <li className='social-link-item'>
             <a
               href='https://www.tiktok.com/@overwhelmed.gamer'
               target='_blank'
@@ -85,7 +85,7 @@ const MainNav = () => {
             >
               <i className='fa-brands fa-tiktok'></i>
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
       <div className='mobile-menu-container'>
