@@ -42,7 +42,7 @@ const Podcasts = () => {
         {podcastData &&
           podcastData.rss.channel.map((podcast, index) =>
             podcast.item.map((episode, episodeIndex) => (
-              <div key={episodeIndex}>
+              <div className='episode' key={episodeIndex}>
                 <h3 className='episode-title'>{episode.title}</h3>
                 <p>{stripHtmlTags(episode.description.toString())}</p>
                 <audio controls>
