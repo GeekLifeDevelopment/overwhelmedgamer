@@ -70,6 +70,15 @@ const MainNav = () => {
           </li>
           <li className='social-link-item'>
             <a
+              href='https://www.threads.net/@overwhelmed_gamer'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-threads'></i>
+            </a>
+          </li>
+          <li className='social-link-item'>
+            <a
               href='https://www.twitch.tv/theoverwhelmedgamer'
               target='_blank'
               rel='noreferrer'
