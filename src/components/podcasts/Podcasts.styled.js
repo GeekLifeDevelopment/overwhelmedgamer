@@ -14,6 +14,12 @@ const PodcastStyles = styled.div`
   }
 
   .description {
+    display: ${(props) => (props.description ? "block" : "none")};
+    font-family: "Source Code Pro", monospace;
+    color: #222222;
+  }
+
+  .show {
     font-family: "Source Code Pro", monospace;
     color: #222222;
   }

@@ -5,6 +5,7 @@ import { stripHtmlTags } from "../../helpers";
 
 const Podcasts = () => {
   const [podcastData, setPodcastData] = useState(null);
+  const [description, setDescription] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,6 +23,10 @@ const Podcasts = () => {
     fetchData();
   }, []);
 
+  const ToggleDescription = () => {
+    description ? setDescription(false) : setDescription(true);
+  };
+
   const parseXML = (xmlData) => {
     parseString(xmlData, (err, result) => {
       if (err) {
@@ -37,7 +42,7 @@ const Podcasts = () => {
     console.log(podcastData);
   }
   return (
-    <Styles>
+    <Styles description={description}>
       <div>
         {podcastData &&
           podcastData.rss.channel.map((podcast, index) =>
@@ -47,6 +52,16 @@ const Podcasts = () => {
                 <p className='description'>
                   {stripHtmlTags(episode.description.toString())}
                 </p>
+                {!description && (
+                  <p onClick={ToggleDescription} className='show'>
+                    Show Description
+                  </p>
+                )}
+                {description && (
+                  <p onClick={ToggleDescription} className='show'>
+                    Hide Description
+                  </p>
+                )}
                 <audio controls>
                   <source src={episode.enclosure[0].$.url} type='audio/mpeg' />
                   Your browser does not support the audio tag.
