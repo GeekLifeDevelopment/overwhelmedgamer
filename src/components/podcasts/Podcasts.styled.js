@@ -22,6 +22,7 @@ const PodcastStyles = styled.div`
   .show {
     font-family: "Source Code Pro", monospace;
     color: #222222;
+    cursor: pointer;
   }
 `;
 

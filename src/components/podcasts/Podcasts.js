@@ -5,7 +5,7 @@ import { stripHtmlTags } from "../../helpers";
 
 const Podcasts = () => {
   const [podcastData, setPodcastData] = useState(null);
-  const [description, setDescription] = useState(false);
+  const [description, setDescription] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
