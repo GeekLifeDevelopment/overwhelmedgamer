@@ -44,7 +44,9 @@ const Podcasts = () => {
             podcast.item.map((episode, episodeIndex) => (
               <div className='episode' key={episodeIndex}>
                 <h3 className='episode-title'>{episode.title}</h3>
-                <p>{stripHtmlTags(episode.description.toString())}</p>
+                <p className='description'>
+                  {stripHtmlTags(episode.description.toString())}
+                </p>
                 <audio controls>
                   <source src={episode.enclosure[0].$.url} type='audio/mpeg' />
                   Your browser does not support the audio tag.
