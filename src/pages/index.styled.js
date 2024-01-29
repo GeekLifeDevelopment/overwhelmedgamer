@@ -16,35 +16,17 @@ const HomeStyles = styled.div`
       height: 100%;
     }
     .left-content-container {
+      margin-top: 8rem;
       padding-left: 3rem;
       width: 50%;
       display: flex;
       flex-direction: column;
       @media (max-width: 650px) {
+        margin-top: 1rem;
         padding: 0;
         width: 90%;
       }
 
-      .podcast-heading {
-        font-size: 3vw;
-        margin-top: 10rem;
-        font-family: "Source Code Pro", monospace;
-
-        @media (max-width: 650px) {
-          margin: 0 auto;
-          font-size: 100%;
-        }
-      }
-      .description {
-        border: 1px solid #f3b33e;
-        padding: 1rem;
-        max-width: 80%;
-        font-size: 1rem;
-        font-family: "Source Code Pro", monospace;
-        @media (max-width: 650px) {
-          max-width: 100%;
-        }
-      }
       .sub-container {
         position: absolute;
         display: flex;
@@ -124,6 +106,16 @@ const HomeStyles = styled.div`
           width: 100%;
           height: 100%;
           object-fit: cover;
+        }
+      }
+      .description {
+        border: 1px solid #f3b33e;
+        padding: 1rem;
+        max-width: 80%;
+        font-size: 1rem;
+        font-family: "Source Code Pro", monospace;
+        @media (max-width: 650px) {
+          max-width: 100%;
         }
       }
     }

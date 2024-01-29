@@ -4,6 +4,7 @@ import Styles from "./index.styled";
 import Logo from "../images/web-logo.png";
 import { SEO } from "../components/seo";
 import SubButton from "../components/subscribeButton/subButton";
+import LatestEpisode from "../components/latestEpisode/latest-episode";
 
 const HomePage = () => {
   return (
@@ -11,14 +12,7 @@ const HomePage = () => {
       <Styles>
         <section className='hero-section'>
           <div className='left-content-container'>
-            <header className='podcast-heading'>
-              <h2>Just another gaming podcast.</h2>
-            </header>
-            <p className='description'>
-              My backlog is bigger than your backlog. Let's have some drinks and
-              talk about it. Oh yea I have a podcast and like to stream
-              home-brew video games.
-            </p>
+            <LatestEpisode />
             <div className='sub-container'>
               <div className='sub-btns'>
                 <SubButton
@@ -47,6 +41,11 @@ const HomePage = () => {
             <div className='logo-container'>
               <img src={Logo} alt='Overwhelemed Gamer Podcast' />
             </div>
+            <p className='description'>
+              My backlog is bigger than your backlog. Let's have some drinks and
+              talk about it. Oh yea I have a podcast and like to stream
+              home-brew video games.
+            </p>
           </div>
         </section>
       </Styles>
