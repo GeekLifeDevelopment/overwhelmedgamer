@@ -95,6 +95,15 @@ const MainNav = () => {
               <i className='fa-brands fa-tiktok'></i>
             </a>
           </li>
+          <li className='social-link-item'>
+            <a
+              href='https://www.youtube.com/@overwhelmed-gamer/streams'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-youtube'></i>
+            </a>
+          </li>
         </ul>
       </div>
       <div className='mobile-menu-container'>
