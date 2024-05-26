@@ -62,9 +62,13 @@ const LatestEpisode = () => {
                   <p className='episode-date'>{pubDate}</p>
                 </div>
                 <h1 className='podcast-heading'>{latestEpisode.title}</h1>
-                <p className='description'>
-                  {stripHtmlTags(latestEpisode.description.toString())}
-                </p>
+                <p
+                  className='description'
+                  dangerouslySetInnerHTML={{
+                    __html: latestEpisode.description.toString(),
+                  }}
+                />
+
                 <div id='audio-player'>
                   <audio controls>
                     <source

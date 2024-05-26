@@ -32,6 +32,10 @@ const LatestEpisodeStyles = styled.div`
 
   .description {
     font-family: "Source Code Pro", monospace;
+
+    a {
+      color: white;
+    }
   }
 
   .see-all-btn {
