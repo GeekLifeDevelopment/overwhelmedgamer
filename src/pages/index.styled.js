@@ -6,7 +6,7 @@ const HomeStyles = styled.div`
     display: flex;
     background-color: #222;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     padding-bottom: 1rem;
     justify-content: space-around;
@@ -28,7 +28,7 @@ const HomeStyles = styled.div`
       }
 
       .sub-container {
-        position: absolute;
+        /* position: absolute; */
         display: flex;
         padding-top: 6rem;
         align-items: flex-end;
