@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components";
 import theme from "./styles/theme";
 import MainNav from "./components/mainNav/MainNav";
 import Footer from "./components/footer/Footer";
-import { Helmet } from "react";
+import { Helmet } from "react-helmet";
 
 const Layout = ({ children }) => {
   return (
