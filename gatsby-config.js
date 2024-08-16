@@ -24,7 +24,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "episodes",
-        path: "./src/episodes/", // This is where your XML files will be located
+        path: "./src/pages/episodes/", // This is where your XML files will be located
       },
       __key: "episodes",
     },
