@@ -20,5 +20,20 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "episodes",
+        path: "./src/episodes/", // This is where your XML files will be located
+      },
+      __key: "episodes",
+    },
+    {
+      resolve: "gatsby-transformer-xml",
+      options: {
+        typeName: "PodcastEpisodes", // This will be the GraphQL type name for your podcast episodes
+      },
+    },
+    "gatsby-plugin-react-helmet", // Optional for managing head tags
   ],
 };
