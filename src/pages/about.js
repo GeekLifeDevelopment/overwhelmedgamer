@@ -1,11 +1,13 @@
 import React from "react";
 import Styles from "./about.styled";
 import Layout from "../Layout";
+import Inner from "../components/inner/inner";
 
 const AboutPage = () => {
   return (
     <Layout>
       <Styles>
+        <Inner>
         <div className='content-container inner'>
           <h1>About Overwhelmed Gamer</h1>
           <p>
@@ -55,7 +57,9 @@ const AboutPage = () => {
             fellow gamers.
           </p>
         </div>
+        </Inner>
       </Styles>
+      
     </Layout>
   );
 };
