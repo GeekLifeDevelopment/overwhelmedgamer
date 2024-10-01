@@ -6,15 +6,17 @@ const SubButtonStyles = styled.div`
   }
 
   .button-container {
-    display: flex;
-    border: 1px white solid;
-    padding: 0 0.5rem;
+    display: inline-flex;
+    border: 1px ${props => props.color} solid;
+    padding: 0.5rem 1rem;
     border-radius: 10px;
     align-items: center;
     gap: 0.8rem;
-    color: white;
+    color: ${props => props.color};
+    margin: .5rem;
+    white-space: nowrap;
 
-    
+  
 
     i {
       font-size: 1.8rem;
@@ -25,6 +27,7 @@ const SubButtonStyles = styled.div`
       padding: 0;
 
       .listen {
+        display: ${props => props.listen ?  "block" : "none"};
         font-size: 0.8rem;
       }
     }
@@ -36,5 +39,6 @@ const SubButtonStyles = styled.div`
             : `background-color: ${props.backgroundHover};`}
         border-color: ${(props) => props.backgroundHover};
   }
+}
 `;
 export default SubButtonStyles;

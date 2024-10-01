@@ -5,14 +5,51 @@ import Logo from "../images/web-logo.png";
 import { SEO } from "../components/seo";
 import SubButton from "../components/subscribeButton/subButton";
 import LatestEpisode from "../components/latestEpisode/latest-episode";
+import Inner from "../components/inner/inner";
+import ScrollArrow from "../components/scrollArrow/scrollArrow";
 
 const HomePage = () => {
   return (
     <Layout>
       <Styles>
-        <section className='hero-section'>
-          <div className='left-content-container'>
-            <LatestEpisode />
+        <section className="hero-section">
+          <Inner>
+            <div className="logo-container">
+              <img src={Logo} alt="Overwhelemed Gamer Podcast" />
+              <p className="description">
+                🎮 Retro & Homebrew Gaming Aficionado | Dive into the classics
+                and discover new gems with me! 🕹️
+              </p>
+            </div>
+
+            <div className="social-branding">
+              <SubButton
+                icon="fa-brands fa-youtube"
+                platform="@overwhelmed-gamer"
+                listen={false}
+                backgroundHover="#FF0000"
+                backgroundHover2="#FFFFFF"
+                to="https://www.youtube.com/@overwhelmed-gamer"
+              />
+              <SubButton
+                icon="fa-brands fa-x-twitter"
+                platform="@OverwhelmedGame"
+                listen={false}
+                backgroundHover="#000000"
+                backgroundHover2="#FFFFFF"
+                to="https://x.com/OverwhelmedGame"
+              />
+              <SubButton
+                icon="fa-brands fa-twitch"
+                platform="@TheOverwhelmedGamer"
+                listen={false}
+                backgroundHover="#6441a5"
+                backgroundHover2="#f1f1f1"
+                to="https://www.twitch.tv/theoverwhelmedgamer"
+              />
+            </div>
+
+            {/* <LatestEpisode />
             <div className='sub-container'>
               <div className='sub-btns'>
                 <SubButton
@@ -31,24 +68,20 @@ const HomePage = () => {
                 />
               </div>
             </div>
-          </div>
-          <div className='right-content-container'>
+
             <header className='page-heading'>
               <h1>
                 <span className='the'>The</span>Overwelmed Gamer
               </h1>
-            </header>
-            <div className='logo-container'>
-              <img src={Logo} alt='Overwhelemed Gamer Podcast' />
-            </div>
-            <p className='description'>
-              My backlog is bigger than your backlog. Let's have some drinks and
-              talk about it. Oh yea I have a podcast and like to stream
-              home-brew video games.
-            </p>
-          </div>
+            </header> */}
+
+            <ScrollArrow />
+          </Inner>
         </section>
       </Styles>
+
+      <LatestEpisode />
+      
     </Layout>
   );
 };
