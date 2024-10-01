@@ -7,17 +7,21 @@ const SubButton = ({
   backgroundHover,
   backgroundHover2,
   to,
+  listen=true,
+  color="white",
 }) => {
   return (
     <Styles
       backgroundHover={backgroundHover}
       backgroundHover2={backgroundHover2}
+      listen={listen}
+      color={color}
     >
       <a href={to} target='_blank'>
         <div className='button-container'>
           <i className={icon} />
           <div className='btn-text'>
-            <p className='listen'>listen on</p>
+            <p listen className='listen'>listen on</p>
             <p>{platform}</p>
           </div>
         </div>

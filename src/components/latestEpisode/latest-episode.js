@@ -3,6 +3,8 @@ import { parseString } from "xml2js";
 import Styles from "./latest-episode.styled";
 import { stripHtmlTags } from "../../helpers";
 import { Link } from "gatsby";
+import Inner from "../inner/inner";
+import SubButton from "../subscribeButton/subButton";
 
 const LatestEpisode = () => {
   const [podcastData, setPodcastData] = useState(null);
@@ -56,32 +58,57 @@ const LatestEpisode = () => {
 
             console.log(latestEpisode);
             return (
-              <div className='episode' key={index}>
-                <div className='episode-info-date'>
-                  <p className='episode-number'>EPISODE {itunesEpisode}</p>
-                  <p className='episode-date'>{pubDate}</p>
-                </div>
-                <h1 className='podcast-heading'>{latestEpisode.title}</h1>
-                <p
-                  className='description'
-                  dangerouslySetInnerHTML={{
-                    __html: latestEpisode.description.toString(),
-                  }}
-                />
-
-                <div id='audio-player'>
-                  <audio controls>
-                    <source
-                      src={latestEpisode.enclosure[0].$.url}
-                      type='audio/mpeg'
+              <>
+                <Inner>
+                  <h2 className="latest-heading">Latest Podcast Episode</h2>
+                  <div className="episode" key={index}>
+                    <div className="episode-info-date">
+                      <p className="episode-number">EPISODE {itunesEpisode}</p>
+                      <p className="episode-date">{pubDate}</p>
+                    </div>
+                    <h1 className="podcast-heading">{latestEpisode.title}</h1>
+                    <p
+                      className="description"
+                      dangerouslySetInnerHTML={{
+                        __html: latestEpisode.description.toString(),
+                      }}
                     />
-                    Your browser does not support the audio tag.
-                  </audio>
-                </div>
-                <p className='see-all-btn'>
-                  <Link to='/episodes'>See All Episodes</Link>
-                </p>
-              </div>
+
+                    <div id="audio-player">
+                      <audio controls>
+                        <source
+                          src={latestEpisode.enclosure[0].$.url}
+                          type="audio/mpeg"
+                        />
+                        Your browser does not support the audio tag.
+                      </audio>
+                    </div>
+                    <p className="see-all-btn">
+                      <Link to="/episodes">See All Episodes</Link>
+                    </p>
+                  </div>
+                  <div className="sub-btns">
+                    <SubButton
+                      color="black"
+                      listen={false}
+                      icon="fa-solid fa-podcast"
+                      platform="Apple Podcasts"
+                      backgroundHover="#d56dfb"
+                      backgroundHover2="#872ec4"
+                      to="https://podcasts.apple.com/us/podcast/overwhelmed-gamer/id1752872724"
+                    />
+
+                    <SubButton
+                      listen={false}
+                      color="black"
+                      backgroundHover="#1DB954"
+                      icon="fa-brands fa-spotify"
+                      platform="Spotify"
+                      to="https://open.spotify.com/show/2QjYq0AzmWPuqLz6kTZIht"
+                    />
+                  </div>
+                </Inner>
+              </>
             );
           })}
       </div>

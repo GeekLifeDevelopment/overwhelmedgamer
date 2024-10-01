@@ -1,22 +1,29 @@
 import styled from "styled-components";
 
 const LatestEpisodeStyles = styled.div`
-  .podcast-heading {
-    font-size: 3vw;
-    margin-top: 0;
-    font-family: "Kanit", sans-serif;
-    color: white;
+  overflow-x: hidden;
 
-    @media (max-width: 650px) {
+  .latest-heading {
+    font-family: "Source Code Pro", monospace;
+  }
+
+  .podcast-heading {
+    padding-right: 2rem;
+    margin-top: 0;
+    
+    font-family: "Kanit", sans-serif;
+
+    /* @media (max-width: 650px) {
       margin: 0 auto;
       font-size: 100%;
-    }
+    } */
   }
 
   .episode-info-date {
     display: flex;
     align-items: center;
     gap: 1rem;
+    width: 50%;
 
     .episode-number {
       background-color: #f3b33e;
@@ -32,10 +39,8 @@ const LatestEpisodeStyles = styled.div`
 
   .description {
     font-family: "Source Code Pro", monospace;
-
-    a {
-      color: white;
-    }
+    padding-right: 2rem;
+    margin: 0;
   }
 
   .see-all-btn {
@@ -50,6 +55,10 @@ const LatestEpisodeStyles = styled.div`
       text-decoration: none;
       color: black;
     }
+  }
+
+  .sub-btns {
+    display: flex;
   }
 
   #audio-player audio::-webkit-media-controls-play-button {

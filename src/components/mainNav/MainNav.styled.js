@@ -38,6 +38,9 @@ const MainNavStyles = styled.div`
     .social-links {
       display: flex;
       padding-right: 2rem;
+      @media (max-width: 650px) {
+          padding-left: 0;
+        }
 
       .social-link-item {
         margin-left: 1rem;
