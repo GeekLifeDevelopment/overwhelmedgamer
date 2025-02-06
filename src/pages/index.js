@@ -47,6 +47,14 @@ const HomePage = () => {
                 backgroundHover2="#f1f1f1"
                 to="https://www.twitch.tv/theoverwhelmedgamer"
               />
+              <SubButton
+                icon="fa-brands fa-tiktok"
+                platform="@overwhelmed.gamer"
+                listen={false}
+                backgroundHover="#fe2858"
+                backgroundHover2="#2af0ea"
+                to="https://www.tiktok.com/@overwhelmed.gamer"
+              />
             </div>
 
             {/* <LatestEpisode />
