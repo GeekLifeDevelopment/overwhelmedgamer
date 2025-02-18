@@ -7,6 +7,7 @@ import SubButton from "../components/subscribeButton/subButton";
 import LatestEpisode from "../components/latestEpisode/latest-episode";
 import Inner from "../components/inner/inner";
 import ScrollArrow from "../components/scrollArrow/scrollArrow";
+import ContactForm from "../components/contact-form/contactForm";
 
 const HomePage = () => {
   return (
@@ -89,6 +90,10 @@ const HomePage = () => {
       </Styles>
 
       <LatestEpisode />
+
+      <ContactForm/>
+
+      
       
     </Layout>
   );
