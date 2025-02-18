@@ -36,9 +36,9 @@ const MainNav = () => {
           <li className='main-link-item'>
             <Link to='/episodes'>Episodes</Link>
           </li>
-          {/* <li className='main-link-item'>
-            <Link to='#'>Subscribe</Link>
-          </li> */}
+          <li className='main-link-item'>
+            <Link to='/#contact'>Contact</Link>
+          </li>
         </ul>
         <ul className='social-links'>
           <li className='social-link-item'>
@@ -117,9 +117,9 @@ const MainNav = () => {
           <li className='main-link-mobile-item'>
             <Link to='/episodes'>Episodes</Link>
           </li>
-          {/* <li className='main-link-mobile-item'>
-            <Link to='#'>Subscribe</Link>
-          </li> */}
+          <li className='main-link-mobile-item'>
+            <Link to='/#contact'>Contact</Link>
+          </li>
         </ul>
       </div>
     </Styles>

@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "./about.styled";
 import Layout from "../Layout";
 import Inner from "../components/inner/inner";
+import ContactForm from "../components/contact-form/contactForm";
 
 const AboutPage = () => {
   return (
@@ -58,6 +59,7 @@ const AboutPage = () => {
           </p>
         </div>
         </Inner>
+        <ContactForm/>
       </Styles>
       
     </Layout>

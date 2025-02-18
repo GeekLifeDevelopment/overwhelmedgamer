@@ -17,11 +17,17 @@ const ContactFormStyles = styled.div`
     textarea {
       border: none;
       width: 100%;
-      padding: 10px;
+      padding: 12px;
       border: 1px solid #ccc;
       border-radius: 4px;
       font-size: 1rem;
       margin: 0.5rem;
+      box-sizing: border-box;
+
+      @media (max-width: 480px) {
+        font-size: 0.9rem;
+        padding: 10px;
+      }
     }
 
     button {
