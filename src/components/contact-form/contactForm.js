@@ -23,7 +23,7 @@ const ContactForm = () => {
   return (
     <ContactFormStyles>
       
-    <section className="h-screen form-wrapper flex justify-center items-center" >
+    <section id="contact" className="h-screen form-wrapper flex justify-center items-center" >
     <h2>Get in Touch with The Overwhelmed Gamer!</h2>
     <p>Have a question about our content, want to submit a game for review, or just have something on your mind? Use the form below to reach out! We’re always happy to hear from fellow gamers, developers, and retro gaming enthusiasts.</p>
     <div className="max-w-md mx-auto">
