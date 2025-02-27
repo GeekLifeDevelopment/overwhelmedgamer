@@ -13,7 +13,6 @@ const SubButtonStyles = styled.div`
     align-items: center;
     gap: 0.8rem;
     color: ${props => props.color};
-    margin: .5rem;
     white-space: nowrap;
 
   
