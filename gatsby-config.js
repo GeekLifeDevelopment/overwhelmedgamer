@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Overwhlmed_Gamer`,
+    title: `Overwhlmed Gamer`,
     siteUrl: `https://www.overwhelmedgamer.show`,
     description: `Overwhelmed Gamer Podcast Web Site`,
     twitterUsername: `@OverwhelmedGame`,

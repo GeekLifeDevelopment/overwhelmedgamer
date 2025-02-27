@@ -41,40 +41,13 @@ const MainNav = () => {
           </li>
         </ul>
         <ul className='social-links'>
-          <li className='social-link-item'>
+        <li className='social-link-item'>
             <a
-              href='https://www.facebook.com/profile.php?id=61553936004598'
+              href='https://www.youtube.com/@overwhelmed-gamer/streams'
               target='_blank'
               rel='noreferrer'
             >
-              <i class='fa-brands fa-square-facebook' />
-            </a>
-          </li>
-          <li className='social-link-item'>
-            <a
-              href='https://www.instagram.com/overwhelmed_gamer/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <i className='fa-brands fa-instagram'></i>
-            </a>
-          </li>
-          <li className='social-link-item'>
-            <a
-              href='https://twitter.com/OverwhelmedGame'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <i className='fa-brands fa-x-twitter'></i>
-            </a>
-          </li>
-          <li className='social-link-item'>
-            <a
-              href='https://www.threads.net/@overwhelmed_gamer'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <i className='fa-brands fa-threads'></i>
+              <i className='fa-brands fa-youtube'></i>
             </a>
           </li>
           <li className='social-link-item'>
@@ -97,13 +70,44 @@ const MainNav = () => {
           </li>
           <li className='social-link-item'>
             <a
-              href='https://www.youtube.com/@overwhelmed-gamer/streams'
+              href='https://twitter.com/OverwhelmedGame'
               target='_blank'
               rel='noreferrer'
             >
-              <i className='fa-brands fa-youtube'></i>
+              <i className='fa-brands fa-x-twitter'></i>
             </a>
           </li>
+          <li className='social-link-item'>
+            <a
+              href='https://www.facebook.com/profile.php?id=61553936004598'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i class='fa-brands fa-square-facebook' />
+            </a>
+          </li>
+          <li className='social-link-item'>
+            <a
+              href='https://www.instagram.com/overwhelmed_gamer/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-instagram'></i>
+            </a>
+          </li>
+          
+          <li className='social-link-item'>
+            <a
+              href='https://www.threads.net/@overwhelmed_gamer'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-threads'></i>
+            </a>
+          </li>
+          
+          
+          
           <li className='social-link-item'>
             <a
               href='https://bsky.app/profile/overwhelmedgamer.bsky.social'
