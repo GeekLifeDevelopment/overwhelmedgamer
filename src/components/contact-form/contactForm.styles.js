@@ -9,8 +9,14 @@ const ContactFormStyles = styled.div`
     background-color: #f4f4f4;
     padding: 1rem;
 
+    h2 {
+      font-family: 'Kanit', sans-serif;
+    }
+
     p {
-        max-width: 700px;
+        max-width: 800px;
+        font-family: "Source Code Pro", monospace;
+        margin-bottom: 1rem;
     }
 
     input,
@@ -21,7 +27,7 @@ const ContactFormStyles = styled.div`
       border: 1px solid #ccc;
       border-radius: 4px;
       font-size: 1rem;
-      margin: 0.5rem;
+      margin: 0.5rem 0;
       box-sizing: border-box;
 
       @media (max-width: 480px) {
