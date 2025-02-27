@@ -105,7 +105,7 @@ const LatestEpisode = () => {
                     color="black"
                     listen={false}
                     icon="fa-solid fa-podcast"
-                    platform="Apple Podcasts"
+                    platform="Apple"
                     backgroundHover="#d56dfb"
                     backgroundHover2="#872ec4"
                     to="https://podcasts.apple.com/us/podcast/overwhelmed-gamer/id1752872724"
