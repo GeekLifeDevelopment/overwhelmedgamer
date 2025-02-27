@@ -104,6 +104,15 @@ const MainNav = () => {
               <i className='fa-brands fa-youtube'></i>
             </a>
           </li>
+          <li className='social-link-item'>
+            <a
+              href='https://bsky.app/profile/overwhelmedgamer.bsky.social'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-bluesky'></i>
+            </a>
+          </li>
         </ul>
       </div>
       <div className='mobile-menu-container'>
