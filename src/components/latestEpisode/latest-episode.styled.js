@@ -59,9 +59,20 @@ const LatestEpisodeStyles = styled.div`
 
   .sub-btns {
     display: flex;
+    gap: 1rem;
   }
 
   #audio-player audio::-webkit-media-controls-play-button {
+  }
+
+  .read-more-btn {
+    margin-bottom: 30px;
+    &:hover {
+      cursor: pointer;
+      background-color: orange;
+      border: none;
+      padding: .5rem;
+    }
   }
 `;
 
