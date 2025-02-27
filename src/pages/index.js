@@ -23,7 +23,7 @@ const HomePage = () => {
               </p>
             </div>
 
-            <div className="social-branding">
+            {/* <div className="social-branding">
               <SubButton
                 icon="fa-brands fa-youtube"
                 platform="@overwhelmed-gamer"
@@ -56,7 +56,7 @@ const HomePage = () => {
                 backgroundHover2="#2af0ea"
                 to="https://www.tiktok.com/@overwhelmed.gamer"
               />
-            </div>
+            </div> */}
 
             {/* <LatestEpisode />
             <div className='sub-container'>
