@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
     body{
         margin: 0;
         padding: 0;
-        color: ${(props) => props.theme.colors.owBlack}
+        color: ${(props) => props.theme.colors.owBlack};
         font-family: ${(props) => props.theme.fonts.regular};
         font-size: 16px;
         
