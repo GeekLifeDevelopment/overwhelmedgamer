@@ -43,13 +43,14 @@ const MainNav = () => {
         <ul className='social-links'>
         <li className='social-link-item'>
             <a
-              href='https://www.youtube.com/@overwhelmed-gamer/streams'
+              href='https://www.youtube.com/@overwhelmed-gamer/'
               target='_blank'
               rel='noreferrer'
             >
               <i className='fa-brands fa-youtube'></i>
             </a>
           </li>
+         
           <li className='social-link-item'>
             <a
               href='https://www.twitch.tv/theoverwhelmedgamer'
@@ -88,15 +89,24 @@ const MainNav = () => {
           </li>
           <li className='social-link-item'>
             <a
+              href='https://discord.gg/KW2CRR9Uep'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <i className='fa-brands fa-discord'></i>
+            </a>
+          </li>
+          {/* <li className='social-link-item'>
+            <a
               href='https://www.instagram.com/overwhelmed_gamer/'
               target='_blank'
               rel='noreferrer'
             >
               <i className='fa-brands fa-instagram'></i>
             </a>
-          </li>
+          </li> */}
           
-          <li className='social-link-item'>
+          {/* <li className='social-link-item'>
             <a
               href='https://www.threads.net/@overwhelmed_gamer'
               target='_blank'
@@ -104,11 +114,9 @@ const MainNav = () => {
             >
               <i className='fa-brands fa-threads'></i>
             </a>
-          </li>
+          </li> */}
           
-          
-          
-          <li className='social-link-item'>
+          {/* <li className='social-link-item'>
             <a
               href='https://bsky.app/profile/overwhelmedgamer.bsky.social'
               target='_blank'
@@ -116,7 +124,7 @@ const MainNav = () => {
             >
               <i className='fa-brands fa-bluesky'></i>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className='mobile-menu-container'>
