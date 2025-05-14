@@ -13,6 +13,9 @@ export default function HTML(props) {
         />
         {props.headComponents}
 
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
         {/* Font Awesome Script */}
         <script
           src='https://kit.fontawesome.com/a48d28f369.js'
